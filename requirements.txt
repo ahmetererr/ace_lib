@@ -1,0 +1,26 @@
+# ACE Core: Adaptive Context Engineering Framework
+# Python 3.8+
+
+# Core dependencies
+python-dateutil>=2.8.2
+
+# Optional LLM client dependencies (choose based on your LLM provider)
+# OpenAI
+# openai>=1.0.0
+
+# Anthropic
+# anthropic>=0.18.0
+
+# Hugging Face
+# transformers>=4.30.0
+# torch>=2.0.0
+
+# Utilities
+typing-extensions>=4.5.0
+
+# Development dependencies (optional)
+# pytest>=7.4.0
+# pytest-cov>=4.1.0
+# black>=23.0.0
+# flake8>=6.0.0
+# mypy>=1.5.0

@@ -4,7 +4,7 @@ Preventing Context Collapse in LLM Agents via Incremental Updates
 """
 
 from .manual import EvolvingManual, ManualItem
-from .metadata import Metadata, MetadataManager
+from .metadata import Metadata, MetadataManager, ItemType, ItemStatus
 from .generator import Generator
 from .reflector import Reflector
 from .curator import Curator
@@ -18,6 +18,8 @@ __all__ = [
     "ManualItem",
     "Metadata",
     "MetadataManager",
+    "ItemType",
+    "ItemStatus",
     "Generator",
     "Reflector",
     "Curator",
